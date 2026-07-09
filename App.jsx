@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Users, TrendingUp, MessageSquare, Award, ChevronDown, ChevronUp, Send } from 'lucide-react';
+import { Users, TrendingU, MessageSquare, Award, ChevronDown, ChevronUp, Send } from 'lucide-react';
 
 
 const TRUST_LEVELS = {
