@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { Users, TrendingU, MessageSquare, Award, ChevronDown, ChevronUp, Send } from 'lucide-react';
+import { Users, TrendingUp, MessageSquare, Award, ChevronDown, ChevronUp, Send } from 'lucide-react';
 
 
 const TRUST_LEVELS = {
-  NEW: { label: 'New', color: '#94a3b8', threshold: 0 },
+  NE: { label: 'New', color: '#94a3b8', threshold: 0 },
   VERIFIED: { label: 'Verified', color: '#3b82f6', threshold: 100 },
   TRUSTED: { label: 'Trusted', color: '#8b5cf6', threshold: 500 },
   ELITE: { label: 'Elite', color: '#f59e0b', threshold: 1000 }
